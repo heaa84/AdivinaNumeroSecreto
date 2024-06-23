@@ -2,7 +2,7 @@ let numeroSecreto= 0; // = numero a adivinar
 let intentos = 0; //contador de turnos del usuario
 let listaNumerosSorteados = [];
 let numeroMaximo = 10;
-let listaTextoIntentos=["primera","segunda","tercera","cuarta","quita","sexta","septima","octava","novena","decima","acertastes a la undecima o mas"];
+let listaTextoIntentos=["primera","segunda","tercera","cuarta","quinta","sexta","septima","octava","novena","decima","acertastes a la undecima o mas"];
 
 function asignarTextoElemento(elemento, texto) {
     let elementoHTML = document.querySelector(elemento);
