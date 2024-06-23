@@ -14,7 +14,7 @@ function verificarIntento() {
     let numeroDeUruario = parseInt (document.getElementById("valorUsuario").value);
     if(numeroDeUruario===numeroSecreto){
         //console.log(listaTextoIntentos[intentos])
-        asignarTextoElemento("p",`Felicidades acertastes en la ${listaTextoIntentos[intentos]} vez`);
+        asignarTextoElemento("p",`Felicidades acertastes en la ${listaTextoIntentos[intentos-1]} vez`);
         document.querySelector("#reiniciar").removeAttribute("disabled");
     }else{
         //el usuario no acerto
